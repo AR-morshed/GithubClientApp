@@ -13,7 +13,9 @@ public struct UserListView: View {
 
   public var body: some View {
     WithPerceptionTracking {
-
+      Text("User List")
     }
+    .ignoresSafeArea()
+    .frame(maxWidth: .infinity, maxHeight: .infinity)
   }
 }

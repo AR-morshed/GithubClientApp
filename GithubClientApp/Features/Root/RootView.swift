@@ -13,7 +13,13 @@ public struct RootView: View {
 
   public var body: some View {
     WithPerceptionTracking {
+      switch store.scope(state: \.destination, action: \.destination).case {
+      case let .splash(store):
+        SplashView(store: store)
 
+      case let .userList(store):
+        UserListView(store: store)
+      }
     }
   }
 }

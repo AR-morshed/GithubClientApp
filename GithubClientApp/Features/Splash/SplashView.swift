@@ -16,6 +16,7 @@ struct SplashView: View {
       ZStack {
         Color.white
 
+        Text("Splash")
         //        Image.splashBackgroundLogo
         //          .resizable()
       }

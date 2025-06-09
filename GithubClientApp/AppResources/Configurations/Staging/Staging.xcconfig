@@ -1,0 +1,12 @@
+//
+//  Staging.xcconfig
+//  GithubClientApp
+//
+//  Created by Arman Morshed on 9/6/25.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://developer.apple.com/documentation/xcode/adding-a-build-configuration-file-to-your-project
+
+XCC_BUNDLE_NAME = GithubClient-Staging
+XCC_CONFIG_PATH = Staging/BuildConfiguration.plist

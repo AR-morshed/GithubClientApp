@@ -18,6 +18,7 @@
 - [x] Browse developers
 - [x] See developer detail
 - [x] Open repo in Browser
+- [x] Pagination 
 
 ## Technologies
 - [x] The Composable Architecture ([TCA](https://github.com/pointfreeco/swift-composable-architecture))

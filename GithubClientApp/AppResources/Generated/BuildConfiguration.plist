@@ -7,6 +7,6 @@
 	<key>baseURL</key>
 	<string>https://api.github.com</string>
 	<key>name</key>
-	<string>Production</string>
+	<string>Development</string>
 </dict>
 </plist>

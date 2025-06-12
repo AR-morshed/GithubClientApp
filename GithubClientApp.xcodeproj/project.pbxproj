@@ -75,7 +75,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B22926832DF6AF0400C5EF3D /* Build configuration list for PBXNativeTarget "GithubClientApp" */;
 			buildPhases = (
-				B22927732DF6DCE200C5EF3D /* Copy Build Configurations */,
 				B22926742DF6AF0300C5EF3D /* Sources */,
 				B22926752DF6AF0300C5EF3D /* Frameworks */,
 				B22926762DF6AF0300C5EF3D /* Resources */,
@@ -141,27 +140,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		B22927732DF6DCE200C5EF3D /* Copy Build Configurations */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Build Configurations";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "cp -fp \"$SRCROOT/GithubClientApp/AppResources/Configurations/${XCC_CONFIG_PATH}\" \"$SRCROOT/GithubClientApp/AppResources/Generated/BuildConfiguration.plist\"\n\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B22926742DF6AF0300C5EF3D /* Sources */ = {

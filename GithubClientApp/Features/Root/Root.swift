@@ -35,7 +35,7 @@ struct Root {
       case .destination(.splash(.delegate(.dismissSplash))):
         state.destination = .userList(.init())
         return .none
-          
+
       default:
         return .none
       }

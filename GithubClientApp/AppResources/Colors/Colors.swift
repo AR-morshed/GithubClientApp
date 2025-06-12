@@ -8,5 +8,5 @@
 import SwiftUI
 
 extension Color {
-    static let splashBackground = Color(hex: "#F61171")
+  static let accent = Color(hex: "#F05138")
 }

@@ -14,11 +14,12 @@ struct SplashView: View {
   var body: some View {
     WithPerceptionTracking {
       ZStack {
-        Color.white
+        Color.black
+          .opacity(0.5)
 
-        Text("Splash")
-        //        Image.splashBackgroundLogo
-        //          .resizable()
+        Image.github
+          .resizable()
+          .frame(width: 124, height: 124, alignment: .center)
       }
       .onAppear {
         store.send(.onAppear, animation: .linear)
